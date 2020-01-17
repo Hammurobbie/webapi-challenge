@@ -7,6 +7,7 @@ const pmHelper = require("../helpers/projectModel");
 const router = express.Router();
 
 router.post("/", (req, res) => {
+  const id = req.actions.id;
   amHelper
     .insert(req.body)
     .then(response => res.status(201).json(response))
