@@ -40,13 +40,23 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 - [ ] Mention two parts of Express that you learned about this week.
 
+.json allows us to use json objects and .Router allows us to create routes to break up similar blocks of code that will follow the same base path.
+
 - [ ] Describe Middleware?
+
+software that provides functions that aren't offered with your current language, program or OS
 
 - [ ] Describe a Resource?
 
+any identifiable thing with a purpose
+
 - [ ] What can the API return to help clients know if a request was successful?
 
+A 200 status
+
 - [ ] How can we partition our application into sub-applications?
+
+Using Routers
 
 ## Minimum Viable Product
 
